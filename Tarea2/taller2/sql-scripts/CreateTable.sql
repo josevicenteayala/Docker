@@ -1,0 +1,5 @@
+CREATE TABLE productos (
+id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nombre  VARCHAR(25),
+precio VARCHAR(15)
+);
