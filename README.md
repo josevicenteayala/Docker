@@ -1,6 +1,6 @@
 # Docker
 
-Vicente Ayala
-Wilmar Alexander Hoyos
-Fabian López
-Carlos Calle
+*Vicente Ayala
+*Wilmar Alexander Hoyos
+*Fabian López
+*Carlos Calle
