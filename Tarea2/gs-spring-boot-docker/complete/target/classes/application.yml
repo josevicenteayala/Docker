@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: testLatticeApp
+  datasource:
+    url: jdbc:mysql://basedatostaller2:3306/db_taller2?useSSL=false
+    username: taller2
+    password: taller2
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect:org.hibernate.dialect.MySQL5Dialect  
+  ribbon:
+    ServerListRefreshInterval: 1000
+  
+  endpoints:
+    health:
+      sensitive: false
+    restart:
+      enabled: true
+    shutdown:
+      enabled: true 
+        

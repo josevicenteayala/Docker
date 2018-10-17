@@ -1,0 +1,10 @@
+com\taller\devops\persistence\domain\Producto.class
+com\taller\devops\services\ProductService.class
+com\taller\devops\Application.class
+com\taller\devops\services\impl\ProductServiceImpl$1.class
+com\taller\devops\domain\dto\Product.class
+com\taller\devops\persistence\repository\impl\ProductRepositoryImpl.class
+com\taller\devops\api\ProductApi.class
+com\taller\devops\api\controller\ProductApiController.class
+com\taller\devops\services\impl\ProductServiceImpl.class
+com\taller\devops\persistence\repository\ProductRepository.class

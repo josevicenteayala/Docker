@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+#TODO: figure out why I need this here and in bootstrap.yml
+spring:
+  application:
+    name: testLatticeApp
+
+ribbon:
+  ServerListRefreshInterval: 1000
+
+endpoints:
+  health:
+    sensitive: false
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+    
+datasource:
+  url: jdbc:mysql://localhost:3306/testdb?useSSL=false
+  username: jayala
+  password: vincaqui01
+jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: update
+    naming:
+      strategy: org.hibernate.cfg.ImprovedNamingStrategy
+  properties:
+    hibernate:
+      dialect:org.hibernate.dialect.MySQL5Dialect
+      
+thymeleaf:
+  cache: false    
+        
